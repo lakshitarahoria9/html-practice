@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		my bbc
+	</title>
+	<style type="text/css">
+		#topbar{
+			width: 1000px;
+			margin: 0 auto;
+			height: 40px;/*guessed all of them are guessed*/
+		}
+
+		body{
+			margin: 0;
+			padding: 0;
+			font-family:Helvetica,Arial,sans-serif;
+		}
+		#logo{
+			margin-top: 8px;
+			width: 100px;
+			float: left;
+			/*coz we want to assign everything else to the right of it*/
+			margin-right: 8px;
+		}
+
+
+/* class for topbar coz we have to style all the top bar components the same way*/
+
+		.topbar-section{
+			float :left;
+			border-left: 1px #CCCCCC solid;
+			height: 100% ;
+			
+
+
+
+
+			/*When you set height: 100%; so it will take entire vertical space of the container element, so say for example, when the container element is 200px in height, and you use height: 100%; on the child element, it will be height: 100%; of the container element = 200px.HERE CONT ELEMENT IS LOGO I guess NO ITS THE TOPBAR*/ 
+		}
+
+		#signin-image{
+			width:30px;
+			margin:10px 15px;
+			float:left;
+
+		}
+
+		#signin-text{
+			font-weight: bold;
+			position: relative;
+			font-size: 90%;
+			top: 14px;
+			padding-right: 50px;
+		}
+		#wigglyline{
+			float: left;
+			height:40px;
+		}
+		#bell{
+			height: 22px;
+			float: left;
+			margin:11px 12px;
+
+		}
+		#bell-div{
+			float: left;
+		}
+
+		.topbar-menu{
+			font-weight: bold;
+			font-size: 90%;
+			padding: 13px 15px 0 15px;
+			/*height is gonna be plus the padding 27+13=40*/
+			height: 27px; 
+
+
+		}
+
+		#more-arrow{
+			float: right;
+			width:30px;
+			margin-left: -12px;
+			margin-top: -3px; 
+		}
+		#search-box{
+			background-color: #E4E4E4;
+			border: none;
+			font-weight: bold;
+			font-size: 12px;
+			padding: 5px;/*for text inside the box*/
+			margin: 5px -5px 5px 5px; 
+						
+		}
+		#magn-glass{
+			height: 23px;
+			 margin-top:5px;
+			 margin-left: 0px;
+			 margin-bottom: 0px;
+		}
+
+		.clear{
+			clear: both;
+
+		}
+		
+		 #menu-bar-container {
+                
+                border-top: 1px solid #CCCCCC;
+                background-color: #BB1919;
+                width:100%;
+                height:70px;
+                
+            }
+            
+            #menu-bar {
+                
+                width:1000px;
+                margin:0 auto;
+                
+            }
+            
+            h1 {                
+                padding:0;
+                margin:0;
+                color:white;
+                font-size: 40px;
+                font-weight: normal;
+                padding-top: 10px;
+                float:left;
+            }
+            
+</style>
+</head>
+<body>
+	<div id ="topbar">
+		<img id=logo src="images/bbclogo.png">
+		<div id= signin-div class =topbar-section  > 
+			<img id="signin-image" src="images/signinlogo.png">
+			<span id="signin-text"> Sign in</span>
+
+		</div>
+		<div id="bell-div" >
+			<img id=wigglyline src="images/wigglyline.png" >
+			<img id=bell src="images/bell.png"></div>
+			<div class="topbar-section topbar-menu">
+				News
+			</div>
+
+			<div class="topbar-section topbar-menu">
+				Sport
+			</div>
+			<div class="topbar-section topbar-menu">
+				Weather
+			</div>
+			<div class="topbar-section topbar-menu">
+				iPlayer
+			</div>
+			<div class="topbar-section topbar-menu">
+				TV
+			</div>
+			<div class="topbar-section topbar-menu">
+				More
+
+				<img id=more-arrow src="images/more.png">
+			</div>
+			<div class="topbar-section ">
+
+				<input id="search-box" type="text" value="Search" >
+				<img id="magn-glass" src="images/magnglass.png">
+			</div>
+
+			 <div class="clear"></div>
+        
+        <div id="menu-bar-container">
+            
+            <div id="menu-bar">
+            
+                <h1>NEWS</h1>
+                
+
+
+			
+
+		</div>
+
+
+
+</body>
+</html>
